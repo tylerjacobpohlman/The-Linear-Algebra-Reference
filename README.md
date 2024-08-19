@@ -4,7 +4,7 @@
 
 ### Chapter 3: Matrices
 
-- [Section 3.1: Matrix Operation](3.1%20Matrix%20Operations.md#)
+- [Section 3.1: Matrix Operation](Chapter%203%20Matrices/3.1%20Matrix%20Operations.md#)
 - []
 
 ## About This Project
