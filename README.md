@@ -14,4 +14,4 @@ Please note that this project is under heavy development. As such, you may exper
 The Linear Algebra Reference is entirely written by me, [Tyler Pohlman](https://github.com/tylerjacobpohlman)
 
 
-This is a link [test](test.md). Ok that works, here's another [test](TheLinearAlgebraReference/Chapter 3 Matrices/3.1 Matrix Operations.html)
+This is a link [test](test.md). Ok that works, here's another [test](/Chapter%203%20Matrices/3.1%20Matrix%20Operations.html)
