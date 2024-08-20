@@ -1,12 +1,4 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true
-    }
-  });
-</script>
+
 
 * [Definition of a Matrix](3.1%20Matrix%20Operations.html#definition-definition-of-a-matrix)
 
