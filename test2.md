@@ -15,16 +15,16 @@ An *n x n* matrix where the *number of rows* **equals** the *number of columns*:
 
 ### \#Definition Diagonal Matrix
 
-A [square matrix](3.1%20Matrix%20Operations.html#definition-of-square-matrix) whose nonzero entries lie on the diagonal:$$C = \begin{bmatrix} c\_{11}& \dots & 0\\ \vdots & c\_{ij}& \vdots \\ 0 & \dots & c\_{nn}\end{bmatrix}$$
+A [square matrix](3.1%20Matrix%20Operations.md#definition-of-square-matrix) whose nonzero entries lie on the diagonal:$$C = \begin{bmatrix} c\_{11}& \dots & 0\\ \vdots & c\_{ij}& \vdots \\ 0 & \dots & c\_{nn}\end{bmatrix}$$
 where $c\_{11}, c\_{ij}, c\_{nn} \neq 0$
 
 ### \#Definition Scalar Matrix
 
-A [diagonal matrix](3.1%20Matrix%20Operations.html#definition-of-diagonal-matrix) whose diagonal entries are all the same:$$D = \begin{bmatrix} d & \dots & 0\\ \vdots & d & \vdots \\ 0 & \dots & d \end{bmatrix}$$
+A [diagonal matrix](3.1%20Matrix%20Operations.md#definition-of-diagonal-matrix) whose diagonal entries are all the same:$$D = \begin{bmatrix} d & \dots & 0\\ \vdots & d & \vdots \\ 0 & \dots & d \end{bmatrix}$$
 
 ### \#Definition Identity Matrix
 
-A [scalar matrix](3.1%20Matrix%20Operations.html#definition-of-scalar-matrix) whose entries are all 1:$$F = \begin{bmatrix} 1 & \dots & 0\\ \vdots &  1 & \vdots \\ 0 & \dots & 1 \end{bmatrix}$$
+A [scalar matrix](3.1%20Matrix%20Operations.md#definition-of-scalar-matrix) whose entries are all 1:$$F = \begin{bmatrix} 1 & \dots & 0\\ \vdots &  1 & \vdots \\ 0 & \dots & 1 \end{bmatrix}$$
 
 # Matrix Addition and Scalar Multiplication
 
@@ -49,8 +49,8 @@ If $A=\begin{bmatrix} -3 & 5 & \frac{7}{2} \\ 1 & 0 & 1\end{bmatrix}$ and $c=\fr
 
 * $-A$ is shorthand for $(-1)A$
 * The difference of two matrices is the sum of two where one of the matrices is scaled by $-1$.$$A-B=A+(-B)$$
-* The sum of an *n x m* matrix $A$ and the [zero matrix](3.1%20Matrix%20Operations.html#special-matrices-special-matrices-special-matrices-special-matrices-definition-zero-matrix) results in the matrix $A$.$$A+0=A=0+A$$
-* The difference between a matrix $A$ and itself results in the [zero matrix](3.1%20Matrix%20Operations.html#special-matrices-special-matrices-special-matrices-special-matrices-definition-zero-matrix).$$A-A=0=-A+A$$
+* The sum of an *n x m* matrix $A$ and the [zero matrix](3.1%20Matrix%20Operations.md#special-matrices-special-matrices-special-matrices-special-matrices-definition-zero-matrix) results in the matrix $A$.$$A+0=A=0+A$$
+* The difference between a matrix $A$ and itself results in the [zero matrix](3.1%20Matrix%20Operations.md#special-matrices-special-matrices-special-matrices-special-matrices-definition-zero-matrix).$$A-A=0=-A+A$$
 
 # Matrix Multiplication
 
@@ -68,7 +68,7 @@ Let If $A=\begin{bmatrix}1 & 3 & -1 \\ -2 & -1 & 1\end{bmatrix}$, $B=\begin{bmat
 
 * Matrix multiplication only applies if the number of columns of $A$ equals the number of rows of $B$. Otherwise, $AB$ is undefined.
 * If $AB$ is defined, that doesn't necessarily mean $BA$ is also defined. Likewise, $AB$ isn't necessarily equal to $BA$.
-* Although matrix multiplication isn't commutative, it is commutative with [identity matrices](3.1%20Matrix%20Operations.html#special-matrices-special-matrices-special-matrices-special-matrices-definition-identity-matrix). Let $A$ be an *m x n* matrix and $I\_{m}$ and $I\_{n}$ be the respective identity matrices, then:$$I\_{m}A=A$$$$AI\_{n}=A$$
+* Although matrix multiplication isn't commutative, it is commutative with [identity matrices](3.1%20Matrix%20Operations.md#special-matrices-special-matrices-special-matrices-special-matrices-definition-identity-matrix). Let $A$ be an *m x n* matrix and $I\_{m}$ and $I\_{n}$ be the respective identity matrices, then:$$I\_{m}A=A$$$$AI\_{n}=A$$
 
 # The Transpose of a Matrix
 
@@ -85,4 +85,3 @@ Let $A=\begin{bmatrix}a&b&c\\d&e&f\end{bmatrix}$. Then, $A^{T}=\begin{bmatrix}a&
 A square matrix $A$ is symmetric if $A$ is equal to its own transpose,$$A=A^{T}$$
 Likewise, a square matrix $A$ is symmetric if and only if $A\_{ij}=A\_{ji}$ for all $i$ and $j$.
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
