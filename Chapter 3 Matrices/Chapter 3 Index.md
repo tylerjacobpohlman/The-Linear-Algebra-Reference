@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 * [Definition of a Matrix](3.1%20Matrix%20Operations.html#definition-definition-of-a-matrix)
 
 # Special Matrices
