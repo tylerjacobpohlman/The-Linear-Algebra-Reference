@@ -116,5 +116,3 @@ layout: default
 
 * [Theorem](3.5%20Subspaces,%20Basis,%20Dimension,%20and%20Rank.html#theorem-rank-and-transpose): $rank(A^{T}A)=rank(A)$.
 * [Theorem](3.5%20Subspaces,%20Basis,%20Dimension,%20and%20Rank.html#theorem-rank-and-transpose): The *n x n* matrix $A^{T}A$ is invertible if and only if $rank(A)=n$.
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
