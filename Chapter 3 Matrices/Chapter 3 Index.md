@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 
 * [Definition of a Matrix](3.1%20Matrix%20Operations.html#definition-definition-of-a-matrix)
 
